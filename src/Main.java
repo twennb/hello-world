@@ -1,10 +1,17 @@
 import java.awt.*;
+import java.sql.SQLOutput;
 import java.util.Date;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        String message = "Hello World" + "!!";
+        System.out.println(message);
+
+        // strings are immutable
+        System.out.println(message.replace("!","*"));
+        System.out.println(message.toLowerCase());
+        System.out.println(message);
 
         // primitive types
         int age = 30;
