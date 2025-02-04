@@ -27,15 +27,17 @@ public class Main {
         byte myAge = 30;
         byte herAge = myAge;
         System.out.println(herAge + ageByte);
+        short littleNumber = 2025;
         int viewsCount = 123_456_789;
         long viewsCountLong = 3_123_456_789L;
         double price = 11.57;
         float priceFloat = 10.99f;
         char letter = 'A';
-        String letters = "ABC";
         boolean isEligible = false;
 
         // reference types
+        String letters = "ABC";
+
         Date now = new Date();
         System.out.println(now);
 
