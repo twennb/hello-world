@@ -12,6 +12,12 @@ public class Main {
         System.out.println(message.replace("!","*"));
         System.out.println(message.toLowerCase());
         System.out.println(message);
+        // can use \ to print strings with " in them.
+        // e.g. System.out.println("Hello \"World\""
+        // results in the output: Hello "World"
+        // since \ is used to exclude symbols it can
+        // itself be excluded with another \
+        // e.g. System.out.println("c:\\Windows\\..."
 
         // primitive types
         int age = 30;
@@ -21,7 +27,6 @@ public class Main {
         byte myAge = 30;
         byte herAge = myAge;
         System.out.println(herAge + ageByte);
-
         int viewsCount = 123_456_789;
         long viewsCountLong = 3_123_456_789L;
         double price = 11.57;
