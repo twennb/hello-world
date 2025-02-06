@@ -22,5 +22,15 @@ public class casting {
         // explicitly casting down a double to an int
         // loses the decimal data. Whenever data loss
         // is possible we have to explicitly cast
+
+        // it is not possible to cast between incompatible
+        // data types such as String to int, but there is
+        // a method using wrapper classes for the different
+        // numeral data types:
+        String number = "1";
+        //int numb = (int)number + 2; cannot convert this way
+        int numb = Integer.parseInt(number) + 2;
+        System.out.println(numb);
+        //this same method works for all primitive numeral data types
     }
 }
